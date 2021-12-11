@@ -17,4 +17,5 @@ func main() {
 	p1 = person{"Bob", 20}
 	p2 := person{name: "selee", age: 37}
 	fmt.Println(p1, p2)
+
 }
