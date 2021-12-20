@@ -19,4 +19,11 @@ func main() {
 	for key, val := range m {
 		fmt.Println(key, " => ", val)
 	}
+
+	// http://pyrasis.com/book/GoForTheReallyImpatient/Unit34/03
+	var a map[string]int = make(map[string]int)
+	var b = make(map[string]int)
+	c := make(map[string]int)
+
+	fmt.Println(a, b, c)
 }
